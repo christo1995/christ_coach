@@ -1,0 +1,8 @@
+{
+  "name": "christ_coach",
+  "app_id": "8e475a14",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
