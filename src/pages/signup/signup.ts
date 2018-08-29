@@ -31,6 +31,10 @@ export class SignupPage {
   }
   create(){
   	console.log(this.account);
+    this.navCtrl.push('EvaluationPage', {}, {
+      animate:true,
+      direction: "forward"
+    })
   }
   login(){
   	this.navCtrl.push('LoginPage', {}, {

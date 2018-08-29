@@ -19,13 +19,38 @@
 }
 .banner{
 	background-size:cover;
-}
-ion-title{
-	.toolbar-title{
-		color:#fff;
+	display:flex;
+
+	ion-title{
+		.toolbar-title{
+			color:#fff;
+		}
+		
 	}
-	
 }
 ion-item{
 	padding-left:0px !important;
+}
+.toolbar-background{
+	background:transparent !important;
+}
+.with_bnr{
+	.scroll-content{
+		margin-top:0px !important;
+	}
+}
+ion-navbar.wt-ft{
+	button{
+		color:#fff !important;
+	}
+}
+ion-title.text-center{
+	 position: absolute;
+	  top: 0;
+	  left: 0;
+	  // padding: 0 90px 1px;
+	  width: 100%;
+	  height: 100%;
+	  text-align: center;
+	  z-index:-1;
 }
