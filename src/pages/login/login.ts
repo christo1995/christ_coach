@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { MainPage } from '../';
 /**
  * Generated class for the LoginPage page.
  *
@@ -29,6 +29,9 @@ export class LoginPage {
   }
   logform(){
   	console.log(this.account);
+  }
+  openHome(){
+    this.navCtrl.push(MainPage);
   }
   signup(){
   	this.navCtrl.push('SignupPage', {}, {

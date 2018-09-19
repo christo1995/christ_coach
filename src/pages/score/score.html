@@ -6,7 +6,7 @@
 -->
 <ion-header no-border>
 
-  <ion-navbar  >
+  <ion-navbar>
     <ion-title class="text-center" >Score</ion-title>
   </ion-navbar>
 
@@ -14,8 +14,30 @@
 
 
 <ion-content padding>
-	<div>
+	<!-- <div>
     <canvas id="polarChart" width="500" height="500"></canvas>
+  </div> -->
+  <div class="crtr_report" padding-vertical>
+  	<div id="char_gragh" style="display: block;"	></div>
+  	<h2>Here is where you need to improve.</h2>
+  
+	  <div class="crtr_report_slider">
+	  	<ion-slides spaceBetween="10" slidesPerView="2">
+		  <ion-slide>
+		  	<img src="assets/imgs/love_tree.jpg" alt="" />
+		  </ion-slide>
+		<ion-slide>
+		  	<img src="assets/imgs/love_tree.jpg" alt="" />
+		  </ion-slide>
+		  <ion-slide>
+		  	<img src="assets/imgs/love_tree.jpg" alt="" />
+		  </ion-slide>
+		</ion-slides>
+	  </div>
   </div>
+  <ion-buttons padding-vertical>
+	   <button ion-button block (click)="opentraits()">Start evaluation</button>
+	</ion-buttons>
+  
 
 </ion-content>

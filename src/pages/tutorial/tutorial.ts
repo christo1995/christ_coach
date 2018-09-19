@@ -23,17 +23,17 @@ export class TutorialPage {
    	{
    		title: 'Lorem ipsum dolor tempor sit amet, labore consectetur',
    		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-   		image: 'assets/imgs/love_tree.jpg',
+   		image: 'assets/imgs/success_screen.png',
    	},
    	{
    		title: 'Lorem ipsum dolor tempor sit amet, labore consectetur',
    		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-   		image: 'assets/imgs/love_tree.jpg',
+   		image: 'assets/imgs/success_screen.png',
    	},
    	{
    		title: 'Lorem ipsum dolor tempor sit amet, labore consectetur',
    		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-   		image: 'assets/imgs/love_tree.jpg',	
+   		image: 'assets/imgs/success_screen.png',	
    	}
   ];
   showSkip: boolean = true;

@@ -86,3 +86,27 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+@font-face {
+  font-family: 'SFProText Medium';
+  src: url('../assets/fonts/sf-pro-text/sf-pro-text_medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/sf-pro-text/sf-pro-text_medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/sf-pro-text/sf-pro-text_medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'SFProText Regular';
+  src: url('../assets/fonts/sf-pro-text/sfprotext-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/sf-pro-text/sfprotext-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/sf-pro-text/sfprotext-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url('../assets/fonts/sf-pro-display/sf-pro-display_regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../aassets/fonts/sf-pro-display/sf-pro-display_regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/sf-pro-display/sf-pro-display_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'SFProDisplay Light';
+  src: url('../assets/fonts/sf-pro-display/sf-pro-display_light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../aassets/fonts/sf-pro-display/sf-pro-display_light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/sf-pro-display/sf-pro-display_light.ttf')  format('truetype'), /* Safari, Android, iOS */
+}

@@ -1,0 +1,33 @@
+<!--
+  Generated template for the PracticePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+	<ion-navbar class="wt-ft"></ion-navbar>
+</ion-header>
+
+<ion-content no-bounce class="with_bnr">
+	<div class="banner small" text-center style="background-image:url(../../assets/imgs/love_tree.jpg)">
+	  	<ion-title >Practice</ion-title>
+	 </div>
+	 <form #form="ngForm" (ngSubmit)="saveTask()" padding>
+		<ion-item>
+			<ion-label>What happened?</ion-label>
+			<ion-input type="text" [(ngModel)]="task.what_happened" name="what_happened"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label>Instead of</ion-label>
+			<ion-input type="text" [(ngModel)]="task.instead_of" name="instead_of"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label>I decided to</ion-label>
+			<ion-input type="text" [(ngModel)]="task.decided_to" name="decided_to"></ion-input>
+		</ion-item>
+		<button ion-button outline>Try again</button>
+		<button ion-button (click)="openReport()" >Success</button>
+		
+	</form>	
+		
+</ion-content>

@@ -22,7 +22,7 @@
 			<ion-label>Password</ion-label>
 			<ion-input type="text" [(ngModel)]="account.password" name="password"></ion-input>
 		</ion-item>
-		<button ion-button block>Log in</button>
+		<button ion-button block (click)="openHome()">Log in</button>
 		<p class="smalltxt" ><button>Forgot Password</button></p>
 		
 	</form>

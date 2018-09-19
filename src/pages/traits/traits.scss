@@ -1,0 +1,21 @@
+page-traits {
+	.char-card{
+		height:125px;
+		margin:3px 0px;
+		width:100%;
+		background-size:cover;
+
+		img{
+			height:100%;
+		}
+		.char-txt{
+			color:#fff;
+			  font-size: 20px;
+			  font-weight: 500;
+			  font-style: normal;
+			  font-stretch: normal;
+
+			  color: #ffffff;
+		}
+	}
+}

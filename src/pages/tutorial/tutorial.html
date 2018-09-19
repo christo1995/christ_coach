@@ -10,17 +10,27 @@
 <ion-content  no-bounce>
 	<ion-slides pager="true" (ionSlideWillChange)="onSlideChange($event)">
 		<ion-slide *ngFor="let slide of slides">
-			<img [src]="slide.image" class="slide-image" />
-			<h2 [innerHTML]="slide.title" class="slide-title"></h2>
-			<p [innerHTML]="slide.description" ></p>
-			<ion-buttons end *ngIf= "showSkip">
-		    	<button ion-button (click)= "startApp()">SKIP</button>
-		    </ion-buttons>
+			<!-- <img [src]="slide.image" class="slide-image" /> -->
+			<div class="slider-image" [ngStyle]="{'background-image': 'url(' + slide.image + ')'}" ></div>
+			<div padding-horizontal>
+				<h2 [innerHTML]="slide.title" class="slide-title"></h2>
+				<p [innerHTML]="slide.description" ></p>
+				
+			</div>
+			<ion-buttons end *ngIf= "showSkip" class="skip-btn">
+			    	<button ion-button (click)= "startApp()">Skip</button>
+			    </ion-buttons>
 		</ion-slide>
 		<ion-slide >
-			<img src="assets/imgs/love_tree.jpg" class="slide-image" />
-			<h2  class="slide-title">Lorem ipsum dolor tempor sit amet, labore consectetur</h2>
-			<button ion-button icon-end large clear (click)="startApp()">Continue</button>
+			<div class="slider-image" style="background:url('assets/imgs/success_screen.png')" ></div>
+			<div padding-horizontal>
+				<h2  class="slide-title">Lorem ipsum dolor tempor sit amet, labore consectetur</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+			</div>
+			<ion-buttons end  class="skip-btn">
+			    	<button ion-button (click)= "startApp()">Continue</button>
+			    </ion-buttons>
 		</ion-slide>
 	</ion-slides>
 
