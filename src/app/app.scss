@@ -57,3 +57,150 @@ ion-title.text-center{
 	  text-align: center;
 	  z-index:-1;
 }
+.theme_btn{
+	height: 40px;
+  	background-color: #f25f39;
+  	border-radius: 7px;
+  	box-shadow:none;
+	  font-family: 'SFProText Regular';
+	  font-size: 14px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.14;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: #ffffff;
+	  text-transform: Capitalize !important	;
+}
+.white_bg{
+	background-color: #ffffff;
+	color: #5d5d5d;
+}
+
+// form style
+
+form{
+   	margin-top:0px;
+   		ion-item{
+   			padding-top:30px !important;
+   			ion-label{
+   				font-family: 'SFProText Regular';
+				font-size: 14px;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.14;
+				letter-spacing: normal;
+				text-align: left;
+				color: #525252;
+   			}
+   		}
+   		input{
+   			margin: 10px 0px !important;
+   			font-family: 'SFProText Regular';
+		  font-size: 14px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.6;
+		  letter-spacing: normal;
+		  text-align: left;
+		  color: #525252;
+   		}
+   		.label {
+		    margin: 10px 8px 10px 0px;
+		}
+		ion-label{
+			transition:.2s ease-in-out ;
+			-webkit-transition:.2s ease-in-out ;
+			-moz-transition:.2s ease-in-out ;
+			-o-transition:.2s ease-in-out ;
+			position: absolute;
+    		bottom: 1px;
+		}
+		
+		.item-input-has-focus,.item-input-has-value{
+			ion-label {
+			    position: absolute;
+			    bottom: 30px;
+			    font-size: 11px;
+			}
+		}
+		.theme_btn{
+			margin-top:35px;
+		}
+		button{
+			box-shadow:none !important	;
+		}
+		
+   }
+   .smalltxt{
+			font-family: 'SFProText Regular';
+		  font-size: 12px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.17;
+		  letter-spacing: normal;
+		  text-align: center;
+		  color: #8e8e93;
+		   button{
+		   	 font-family: 'SFProText Regular';
+			  font-size: 12px !important;
+			  font-weight: normal;
+			  font-style: normal;
+			  font-stretch: normal;
+			  line-height: 1.17;
+			  letter-spacing: normal;
+			  text-align: center;
+			  color: #8e8e93;
+			  background-color:transparent !important;
+		   }
+		}
+   .item-block{
+   	min-height:0px;
+   }
+   .orange{
+   	 color:#f25f39 !important;
+   }
+   ion-title .toolbar-title{
+   	font-family: 'SFProText Medium';
+	  font-size: 16px;
+	  font-weight: 500;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.6;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: #1c1c1c;
+   }
+   .banner{
+   	 ion-title{
+   	 	.toolbar-title{
+   	 		position:absolute;
+   	 		bottom:25px;
+   	 		font-family: 'SFProDisplay';
+			  font-size: 22px;
+			  font-weight: bold;
+			  font-style: normal;
+			  font-stretch: normal;
+			  line-height: 1.6;
+			  letter-spacing: 0.4px;
+			  text-align: left;
+			  color: #ffffff;
+   	 	}
+   	 }
+   }
+
+   p{
+   	font-family: 'SFProDisplay Light';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #000000;
+   }

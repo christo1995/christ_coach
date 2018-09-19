@@ -9,8 +9,8 @@
 </ion-header>
 
 
-<ion-content no-bounce class="with_bnr">
-	<div class="banner medium" style="background-image:url(../../assets/imgs/love_tree.jpg);">
+<ion-content no-bounce no-scroll class="with_bnr">
+	<div class="banner medium" style="background-image:url(../../assets/imgs/orange_pattern.svg);">
 	  	<ion-title >Log in</ion-title>
 	  </div>
 	<form #form="ngForm" (ngSubmit)="logform()" padding>
@@ -22,9 +22,9 @@
 			<ion-label>Password</ion-label>
 			<ion-input type="text" [(ngModel)]="account.password" name="password"></ion-input>
 		</ion-item>
-		<button ion-button block (click)="openHome()">Log in</button>
-		<p class="smalltxt" ><button>Forgot Password</button></p>
+		<button ion-button block (click)="openHome()" class="theme_btn">Log in</button>
+		<p class="smalltxt" ><button>Forgot Password?</button></p>
 		
 	</form>
-	<p class="smalltxt bottom-text" padding >Don’t have an account?<button (click)="signup()" class="orange">Register</button></p>
+	<p class="smalltxt bottom-text" padding >Don’t have an account?<button (click)="signup()" class="orange ">Register</button></p>
 </ion-content>

@@ -17,5 +17,10 @@ export class MyApp {
       splashScreen.hide();
     });
   }
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad ImprovePage');
+  }
+   
 }
+
 

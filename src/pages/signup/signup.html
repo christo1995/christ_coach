@@ -14,13 +14,13 @@
 
 
 <ion-content no-bounce class="with_bnr">
-	<div class="banner medium" style="background-image:url(../../assets/imgs/love_tree.jpg)">
+	<div class="banner medium" style="background-image:url(../../assets/imgs/orange_pattern.svg)">
   	<ion-title >Sign up</ion-title>
   </div>
 	<form #form="ngForm" (ngSubmit)="create()" padding>
 		<ion-item>
 			<ion-label>Email Address</ion-label>
-			<ion-input type="text" [(ngModel)]="account.email" name="email"></ion-input>
+			<ion-input type="text" [(ngModel)]="account.email" name="email" ></ion-input>
 		</ion-item>
 		<ion-item>
 			<ion-label>Full name</ion-label>
@@ -30,7 +30,7 @@
 			<ion-label>Password</ion-label>
 			<ion-input type="text" [(ngModel)]="account.password" name="password"></ion-input>
 		</ion-item>
-		<button ion-button block>Sign up</button>
-		<p class="smalltxt">Already have an account?<button (click)="login()" class="orange">Log in</button></p>
+		<button class="theme_btn" ion-button block>Sign up</button>
+		<p class="smalltxt">Already have an account?<button  (click)="login()" class="orange">Log in</button></p>
 	</form>
 </ion-content>

@@ -22,22 +22,7 @@ page-tutorial {
 	  text-align: left;
 	  color: #696969;
  	}
- 	.skip-btn{
-       position:absolute;
-       bottom:0px ;
-       right:0px;
-       width:100%;
-       button{
-       	background-color: transparent;
-	    box-shadow: none !important;
-	    color: #7f7f7f !important;
-	    text-transform: capitalize !important;
-	    font-weight: 400;
-	    font-size: 15px;
-	    height:65px !important;
-	    margin:0px !important;
-       }
- 	}
+ 	
  	.slider-image{
  		height:60vh;
  		width:100%;
@@ -68,4 +53,33 @@ page-tutorial {
  		background-color: #f25f39 !important;
  	}
  }
+ .swiper-container{
+ 	    overflow-y: scroll;
+    width: 100%;
+    height: calc(100% - 65px);
+    margin-bottom: 65px;
+ }
+ .swiper-pagination{
+ 	position:fixed;
+ 	background-color:#fff;
+ }
+ .skip-btn{
+       position:fixed;
+       bottom:0px ;
+       right:0px;
+       width:100%;
+       text-align:right;
+       button{
+       	background-color: transparent;
+	    box-shadow: none !important;
+	    color: #7f7f7f !important;
+	    text-transform: capitalize !important;
+	    font-weight: 400;
+	    font-size: 15px;
+	    height:65px !important;
+	    margin:0px !important;
+
+       }
+ 	}
+ 	
 }

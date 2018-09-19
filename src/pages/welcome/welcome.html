@@ -7,11 +7,14 @@
 
 
 
-<ion-content  no-bounce>
-	<h1 text-center>Christ Coach</h1>
-	<ion-buttons >
-		<button ion-button block (click)="login()">I have an account</button>
-		<button ion-button block (click)="signUp()">Create an account</button>
-	</ion-buttons>
+<ion-content  no-bounce style="background-image:url('../../assets/imgs/login_screen.png')">
+	<!-- <h1 text-center>Christ Coach</h1> -->
+	<div class="login_container" padding-horizontal>
+		<ion-buttons padding>
+			<button class="theme_btn white_bg" margin-vertical ion-button block (click)="login()">I have an account</button>
+			<button class="theme_btn" ion-button block (click)="signUp()">Create an account</button>
+		</ion-buttons>
+	</div>
+	
 
 </ion-content>
