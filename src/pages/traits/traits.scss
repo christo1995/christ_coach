@@ -3,19 +3,23 @@ page-traits {
 		height:125px;
 		margin:3px 0px;
 		width:100%;
-		background-size:cover;
-
+		background-size:cover !important;
+        border-radius:5px;
+        overflow:hidden;
 		img{
 			height:100%;
 		}
 		.char-txt{
-			color:#fff;
-			  font-size: 20px;
-			  font-weight: 500;
-			  font-style: normal;
-			  font-stretch: normal;
-
-			  color: #ffffff;
+			font-family: 'SFProText Regular';
+		  font-size: 20px;
+		  font-weight: 500;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.2;
+		  letter-spacing: normal;
+		  text-align: center;
+		  color: #ffffff;
 		}
+		
 	}
 }

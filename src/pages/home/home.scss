@@ -1,3 +1,72 @@
 page-home {
-
+	.slide-zoom {
+	    text-align: center;
+	    display: block;
+	    height: 84px !important;
+	    // opacity: 0.52; 
+	    border-radius: 5px;
+	    
+	}
+	
+	.swiper-container{
+		overflow:visible !important;
+	}
+	ion-slide{
+		background-size:cover !important;
+		background-color: #000000;
+		border-radius: 5px;
+		overflow:hidden;
+	}
+	h2{
+		font-family: 'SFProDisplay';
+	  font-size: 16px;
+	  font-weight: bold;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.19;
+	  letter-spacing: 0.7px;
+	  text-align: center;
+	  color: #000000;
+	  margin-top:5px !important;
+	  margin-bottom:20px !important;
+	  text-align:left;
+	}
+	h3.char_name{
+		font-family: 'SFProText Regular';
+	  font-size: 16px;
+	  font-weight: 500;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.19;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: #ffffff;
+	  position:absolute;
+	  bottom:12px;
+	  left:20px;
+	  margin-bottom:0px;
+	}
+	#container{
+      border-bottom:7px solid #ebebeb;
+	}
+	p.subtitle_left{
+		color:#fff;
+		position:absolute;
+		bottom:15px;
+		left:12px;
+		margin:0px !important;
+	}
+	p.read_link{
+		color:#fff;
+		position:absolute;
+		right:12px;
+		bottom:15px;
+		margin:0px !important;
+	}
+	.banner{
+		position:relative;
+	}
+	.banner ion-title .toolbar-title{
+		bottom:40px;
+	}
 }

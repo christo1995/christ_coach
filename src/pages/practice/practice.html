@@ -9,9 +9,10 @@
 </ion-header>
 
 <ion-content no-bounce class="with_bnr">
-	<div class="banner small" text-center style="background-image:url(../../assets/imgs/love_tree.jpg)">
+	<div class="banner small" text-center style="background-image:url(../../assets/imgs/practise_banner.png)">
 	  	<ion-title >Practice</ion-title>
 	 </div>
+	 <h2>Peter denies Christ 3 times.</h2>
 	 <form #form="ngForm" (ngSubmit)="saveTask()" padding>
 		<ion-item>
 			<ion-label>What happened?</ion-label>
@@ -25,8 +26,8 @@
 			<ion-label>I decided to</ion-label>
 			<ion-input type="text" [(ngModel)]="task.decided_to" name="decided_to"></ion-input>
 		</ion-item>
-		<button ion-button outline>Try again</button>
-		<button ion-button (click)="openReport()" >Success</button>
+		<button ion-button class="theme_btn_outline" outline>Try again</button>
+		<button class="theme_btn" ion-button (click)="openReport()" >Success</button>
 		
 	</form>	
 		

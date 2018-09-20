@@ -1,4 +1,28 @@
 page-rulespopup {
-
+   h1{
+   	  font-family: 'SFProText Medium';
+	  font-size: 20px;
+	  font-weight: 500;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.2;
+	  letter-spacing: normal;
+	  text-align: left;
+	  color: #1c1c1c;
+   }
+   p,li{
+   	  font-family: 'SFProText Regular';
+	  font-size: 14px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.86;
+	  letter-spacing: normal;
+	  text-align: left;
+	  color: #000000;
+   }
+   ul{
+   	margin-left:-20px;
+   }
 }
 

@@ -42,7 +42,13 @@ export class HomePage {
     series: [{
             showInLegend: false,               
             name: "<b><?php echo $title; ?></b>",
-            data: [1, 3, 4, 6, 8, 3]
+            data: [
+                  {y: 1, color: '#f25f39'}, 
+                  {y: 3, color: '#f25f39'}, 
+                  {y: 4, color: '#f25f39'}, 
+                  {y: 6, color: '#f25f39'}, 
+                  {y: 8, color: '#f25f39'}, 
+                  {y: 3, color: '#f25f39'},]
         }]
   });
   }

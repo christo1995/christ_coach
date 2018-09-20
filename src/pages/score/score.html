@@ -13,31 +13,37 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content >
 	<!-- <div>
     <canvas id="polarChart" width="500" height="500"></canvas>
   </div> -->
   <div class="crtr_report" padding-vertical>
   	<div id="char_gragh" style="display: block;"	></div>
-  	<h2>Here is where you need to improve.</h2>
+  	<div padding>
+  		<h2>Here is where you need to improve.</h2>
   
-	  <div class="crtr_report_slider">
-	  	<ion-slides spaceBetween="10" slidesPerView="2">
-		  <ion-slide>
-		  	<img src="assets/imgs/love_tree.jpg" alt="" />
-		  </ion-slide>
-		<ion-slide>
-		  	<img src="assets/imgs/love_tree.jpg" alt="" />
-		  </ion-slide>
-		  <ion-slide>
-		  	<img src="assets/imgs/love_tree.jpg" alt="" />
-		  </ion-slide>
-		</ion-slides>
+		  <div class="crtr_report_slider" >
+		  	<ion-slides spaceBetween="10" slidesPerView="1.5">
+			  <ion-slide style="background:url('../../assets/imgs/goodness.png')">
+			  	<!-- <img src="assets/imgs/love_tree.jpg" alt="" /> -->
+			  	<h3 class="char_name">Goodness</h3>
+			  </ion-slide>
+			<ion-slide style="background:url('../../assets/imgs/goodness.png')">
+			  	<!-- <img src="assets/imgs/love_tree.jpg" alt="" /> -->
+			  	<h3 class="char_name">Love</h3>
+			  </ion-slide>
+			  <ion-slide style="background:url('../../assets/imgs/goodness.png')">
+			  	<!-- <img src="assets/imgs/love_tree.jpg" alt="" /> -->
+			  	<h3 class="char_name">Faith</h3>
+			  </ion-slide>
+			</ion-slides>
+		  </div>
+		  <ion-buttons padding-vertical>
+		   <button class="theme_btn" ion-button block (click)="opentraits()">Start evaluation</button>
+		</ion-buttons>
 	  </div>
-  </div>
-  <ion-buttons padding-vertical>
-	   <button ion-button block (click)="opentraits()">Start evaluation</button>
-	</ion-buttons>
+  	</div>
+  	
   
 
 </ion-content>

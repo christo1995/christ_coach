@@ -29,9 +29,13 @@ export class LoginPage {
   }
   logform(){
   	console.log(this.account);
+
   }
   openHome(){
-    this.navCtrl.push(MainPage);
+    this.navCtrl.push('HomePage', {}, {
+      animate:true,
+      direction:'forward'
+    });
   }
   signup(){
   	this.navCtrl.push('SignupPage', {}, {
