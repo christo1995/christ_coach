@@ -1,0 +1,47 @@
+page-notification {
+	ion-label{
+	  font-family: 'SFProText Medium';
+	  font-size: 15px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.2;
+	  letter-spacing: -0.4px;
+	  text-align: left;
+	  color: #000000;
+	  .time{
+	  	 font-family: 'SFProText Regular';
+		  font-size: 12px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.17;
+		  letter-spacing: -0.3px;
+		  text-align: left;
+		  color: #676767;
+		  margin-top:6px;
+	  }
+	}
+	.toggle-checked .toggle-inner{
+		background-color:#fff !important;
+	}
+	.toggle-checked .toggle-icon{
+		background-color: #f25f39 !important;
+	}
+	ion-toggle{
+		height:30px !important;
+		width:50px !important;
+	}
+	 .toggle-inner {
+	    left:0px !important;
+	    top: 1px !important	;
+	    border-radius: 50% !important;
+	    position: absolute !important;
+	    width: 27px !important;
+	    height: 27px !important;
+	}
+	.toggle-checked .toggle-inner {
+	    right: 17px !important	;
+	    left: auto !important;
+	}
+}

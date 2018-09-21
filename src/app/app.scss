@@ -257,3 +257,20 @@ form{
 	    display: flex;
 	    align-items: center;
 	}
+	.tab-button-text{
+		font-family: 'SFProText Regular';
+	  font-size: 10px !important;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.2;
+	  letter-spacing: -0.1px;
+	  text-align: center;
+	  color: #002b43;
+	}
+	.tab-button-icon {
+	  color: #002b43 !important;
+	}
+	.tabbar{
+		background-color:#fff !important;
+	}

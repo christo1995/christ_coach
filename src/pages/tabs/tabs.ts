@@ -14,7 +14,7 @@ import { IonicPage, NavController } from 'ionic-angular';
   templateUrl: 'tabs.html'
 })
 export class TabsPage {
-  // home = 'HomePage'
+  home = 'HomePage'
   meRoot = 'MePage'
   improveRoot = 'ImprovePage'
   activeRoot = 'ActivePage'

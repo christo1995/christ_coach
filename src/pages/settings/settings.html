@@ -4,7 +4,7 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
+<ion-header no-border>
 
   <ion-navbar>
     <ion-title>Settings</ion-title>
@@ -13,6 +13,40 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content >
+	    <ion-item>
+			<button (click)="openLesson()">
+				<span class="big_circle">J</span>
+				<span>
+					<div class="name">Jaocb Adams</div>
+					<div class="mail">jacobadams@gmail.com</div>
+				</span>
+			</button>
+		</ion-item>
+		<ion-item>
+			<button (click)="openNotification()">
+				<ion-icon ios="ios-alarm-outline" md="md-alarm"></ion-icon>
+				<span class="settings_title">Notification</span>
+			</button>
+		</ion-item>
+		<ion-item>
+			<button >
+				<ion-icon ios="ios-information-circle-outline" md="ios-information-circle-outline"></ion-icon>
+				<span class="settings_title">Help</span>
+			</button>
+		</ion-item>
+		<ion-item>
+			<button >
+				<ion-icon ios="ios-school-outline" md="ios-school-outline"></ion-icon>
+				<span class="settings_title">FAQ</span>
+			</button>
+		</ion-item>
+		<ion-item>
+			<button >
+				<ion-icon ios="ios-contact-outline" md="ios-contact-outline"></ion-icon>
+				<span class="settings_title">Signout</span>
+			</button>
+		</ion-item>
+		
 
 </ion-content>

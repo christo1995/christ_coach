@@ -48,6 +48,7 @@ page-tutorial {
 	  height: 5.4px !important;
 	  background-color: #464646 !important;
 	  margin-right:16px;
+	  border-radius:50% !important;
  	}
  	.swiper-pagination-bullet-active{
  		background-color: #f25f39 !important;
@@ -81,5 +82,7 @@ page-tutorial {
 
        }
  	}
- 	
+ 	button.activated{
+ 		background-color:transparent !important;
+ 	}
 }

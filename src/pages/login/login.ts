@@ -32,7 +32,7 @@ export class LoginPage {
 
   }
   openHome(){
-    this.navCtrl.push('HomePage', {}, {
+    this.navCtrl.push(MainPage, {}, {
       animate:true,
       direction:'forward'
     });
